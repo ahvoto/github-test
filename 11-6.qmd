@@ -8,7 +8,6 @@ format:
 
 Hi Dad! Look, I made a website!
 
-
 Here, have a chart.
 
 ```{r}
