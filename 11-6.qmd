@@ -1,8 +1,18 @@
 ---
-title: "11-6"
+title: "index"
 author: "AV"
-format: html
+format: 
+  html:
+    embeded-resources: true
 ---
 
 Hi!!!
 bye!!!
+
+```{r}
+library(tidyverse)
+
+ggplot(mtcars, aes(x = cyl, y = mpg)) +
+  geom_point()
+```
+
