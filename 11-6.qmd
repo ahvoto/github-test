@@ -6,8 +6,10 @@ format:
     embeded-resources: true
 ---
 
-Hi!!!
-bye!!!
+Hi Dad! Look, I made a website!
+
+
+Here, have a chart.
 
 ```{r}
 library(tidyverse)
@@ -15,4 +17,5 @@ library(tidyverse)
 ggplot(mtcars, aes(x = cyl, y = mpg)) +
   geom_point()
 ```
+Bye!!! <3
 
